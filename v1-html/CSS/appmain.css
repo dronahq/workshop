@@ -1,0 +1,1347 @@
+﻿body {
+}
+
+.notVisible {
+    visibility: none !important;
+}
+
+
+
+.header1 {
+    height: 48px;
+    background-color: #4cb3e2;
+    text-align: center;
+    color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    position: absolute;
+    /* bottom: 0;  remove this */
+    margin-top: -50px; /* add this */
+    left: 0;
+    width: 100%;
+    padding: 0px 0px;
+}
+
+.button {
+    font-family: 'Maven Pro', sans-serif !important;
+}
+
+.announce {
+    color: #28bb6a;
+}
+
+.stage{
+    padding-top: 20px;
+    font-weight: 700;
+}
+.stage-q {
+    padding-top: 20px;
+    font-weight: 700;
+    color:#444;
+}
+
+.stage-a {
+    padding-top: 10px;
+    color:#777;
+}
+
+
+.positive {
+    background-color: #28bb6a !important;
+}
+
+.b-r-h36 {
+    border-radius: 20px !important;
+}
+
+.app-name {
+    padding: 10px 0px 0px 0px !important;
+    font-weight: 900;
+}
+
+
+.add_task_addicon {
+    font-size: 21px;
+    float: right;
+    padding: 12px 17px 0px 0px;
+    color: #2F2F2F;
+}
+
+.OnholdProject {
+    pointer-events: none;
+}
+
+.userCountDiv {
+    color: #7D7D7D !important;
+}
+
+.head-font {
+    font-size: 18px;
+    padding-top: 9px;
+}
+
+.rippler-inverse .rippler-div {
+    background-color: #c7c7c7 !important;
+}
+
+.fullWidth {
+    width: 100% !important;
+}
+
+.date-header {
+    background-color: #4cb3e2;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+    overflow: visible !important;
+}
+
+.max-scroll {
+    max-height: 82vh;
+    overflow-y: scroll;
+}
+
+.dateWrapper {
+    box-sizing: border-box !important;
+}
+
+.date-text-col {
+    color: white !important;
+}
+
+.pull-right {
+    float: right;
+}
+
+.pull-left {
+    float: left;
+}
+
+.bottom-slider {
+    height: 80%;
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    width: 90% !important;
+    margin-left: 5% !important;
+}
+
+.pd {
+    padding: 10px;
+}
+
+.modal.bottom-sheet {
+    max-height: 90% !important;
+}
+
+.selFP {
+    padding: 10px;
+    font-size: 17px;
+    border-bottom: 1px solid #ddd;
+}
+
+.timefnt {
+    font-size: 15px;
+    padding: 10px;
+    color: #8a8a8a;
+}
+
+.hourtxt {
+    margin-bottom: 5px !important;
+    color: black;
+    text-align: center;
+    font-size: 15px !important;
+    width: 12vw !important;
+    vertical-align: top;
+}
+
+.mintxt {
+    margin-bottom: 5px !important;
+    color: black;
+    text-align: center;
+    font-size: 15px !important;
+    /* border: 1px solid #ddd !important; */
+    /* border-radius: 5px !important; */
+    width: 12vw !important;
+}
+
+.timeimput {
+    text-align: center;
+    font-size: 30px !important;
+    color: gray;
+    padding-bottom: 0px;
+}
+
+.hhmm {
+    text-align: center;
+    color: gray;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.notes {
+    margin-bottom: 5px !important;
+    color: black;
+    /*margin-left: 35% !important;*/
+    /*border: 1px solid #ddd !important;*/
+    background-color: transparent !important;
+    padding: 15px;
+}
+
+.addtask {
+    background-color: #4cb3e2;
+    position: fixed;
+    bottom: 0px;
+    width: 90%;
+}
+
+.lstItemFP {
+    padding: 10px;
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.FP {
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.icon-info {
+    text-align: center !important;
+    color: #00abff;
+    padding: 5px;
+}
+
+.flt-lft {
+    float: left;
+}
+
+.flt-rgt {
+    float: right;
+}
+
+.icon-menu {
+    font-size: 19px;
+    padding: 1px 10px;
+    color: white;
+}
+
+.icon-mustache {
+    font-size: 25px;
+    padding: 0px 10px;
+    color: white;
+}
+
+.exc {
+    color: #c7c7c7;
+    font-size: 4rem;
+    margin-bottom: 18px;
+}
+
+.NoProjs {
+    color: #b5b5b5;
+}
+
+.userProf {
+    font-size: 22px;
+    border: 1px solid #ddd;
+    border-radius: 25px;
+    padding: 7px !important;
+}
+
+.side-nav {
+    padding: 15px !important;
+}
+
+.devname {
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.devischecked {
+    width: 100%;
+    text-align: right;
+}
+
+.sidenavheader {
+    border-bottom: 1px solid #929292;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.menutext {
+    padding: 10px 0px 10px 17px;
+    font-size: 15px;
+    /* color: black; */
+    border-bottom: 1px solid #ddd;
+}
+
+.fplist {
+    opacity: 1;
+    display: block;
+    height: 65vh;
+    overflow-y: auto;
+}
+
+.collapsible-body {
+    height: 45vh;
+}
+
+.projlist {
+    width: 100%;
+    margin: 15px;
+}
+
+.tabs .indicator {
+    height: 4px;
+    background-color: #bde7ff;
+}
+
+.tabInactive {
+    border-bottom: 4px solid #4cb3e2;
+}
+
+.tabActive {
+    border-bottom: 4px solid #fff;
+}
+
+.allcenter {
+    width: 100% !important;
+    /*height: 100% !important;*/
+    height: calc(100vh - 94px);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projtimedp {
+    color: #a2a2a2;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.card .card-content {
+    padding: 14px;
+    margin-bottom: 10px;
+    padding-bottom: 10%;
+}
+
+.devselect {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 5px 10px 10px;
+}
+
+.projtimeimpout {
+    font-size: 15px !important;
+    color: gray;
+    padding-bottom: 0px;
+    margin: 15px 0px;
+    height: 5vh;
+}
+
+.devprof {
+    border: 1px solid #ddd;
+    border-radius: 13px;
+    padding: 5px;
+}
+
+.btn.seltask {
+    width: 100%;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #bdbdbd;
+    box-shadow: none;
+    background-color: transparent;
+    color: black;
+    padding: 0px 7px 2px 2px;
+    /* vertical-align: middle; */
+    overflow: hidden;
+}
+
+.hide {
+    display: none !important;
+}
+
+.txtcen {
+    text-align: center !important;
+}
+
+.modaltitle {
+    border-bottom: 1px solid #ddd !important;
+}
+
+.txtrgt {
+    text-align: right;
+}
+
+#taskdown {
+    float: right;
+}
+
+.border1px {
+    border: 1px solid #ddd;
+}
+
+.home_sel_taskcss {
+    padding: 5px;
+    border-bottom: 1px solid #ddd;
+    height: 5vh;
+    overflow: hidden;
+}
+
+.home_task_list {
+    overflow-y: auto;
+    height: 25vh;
+}
+
+.notemodal {
+    border-radius: 10px;
+}
+
+.addnotetextarea {
+    border: 1px solid #ddd !important;
+}
+
+.addnotefooter {
+    text-align: center;
+    background-color: #4490ff !important;
+    color: white;
+    height: 42px;
+    font-size: 20px;
+}
+
+.height9vh {
+    height: 9vh;
+}
+
+.icon-arrow-down {
+    font-size: 10px !important;
+}
+
+.taskcontainer {
+    margin-bottom: 9px;
+    border-bottom: 1px solid #ddd;
+}
+
+.savetaskbutton {
+    text-align: center;
+    background-color: #00b8ff;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.history_filters {
+    background-color: #4cb3e2;
+    text-align: center;
+    color: white;
+    margin-top: 48px;
+    height: 6vh;
+}
+
+.filterbutton {
+    padding: 0px !important;
+    height: 100%;
+    width: 100%;
+    background: transparent;
+}
+
+.filter_modal_head {
+    border-bottom: 1px solid #ddd;
+}
+
+.side-nav a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.offClick {
+    pointer-events: none;
+}
+
+/*NEW*/
+.mintxtFP {
+    margin-bottom: 5px !important;
+    color: black;
+    text-align: center;
+    font-size: 22px !important;
+    /*border: 1px solid #ddd !important;
+    border-radius: 5px !important;*/
+    width: 12vw !important;
+}
+
+.hourtxtFP {
+    margin-bottom: 5px !important;
+    color: black;
+    text-align: center;
+    font-size: 22px !important;
+    /* margin-left: 35% !important; */
+    /* border: 1px solid #ddd !important; */
+    /* border-radius: 5px !important; */
+    width: 12vw !important;
+    /* vertical-align: top; */
+}
+
+.mb0 {
+    margin-bottom: 0%;
+}
+
+.cardmain {
+    border-left: 5px solid #ddd;
+}
+
+.cardtitle {
+    color: black;
+    font-size: 18px;
+}
+
+.cardhidden {
+    padding: 15px;
+    display: none;
+}
+
+.cardtaskheader {
+    height: 4vh;
+    border-bottom: 1px solid #ddd;
+}
+
+.pd0 {
+    padding: 0px !important;
+}
+
+.pdleft1 {
+    padding-left: 1rem !important;
+}
+
+.pdright1 {
+    padding-right: 1rem !important;
+}
+
+.modalcontentstyle {
+    font-size: 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 8%;
+    line-height: 1.3em;
+}
+
+.modaltitlefooter {
+    font-size: 15px;
+    font-style: italic;
+}
+
+.notetitle {
+    border-bottom: 1px solid #ddd;
+    font-size: 20px;
+    text-align: left;
+    margin-bottom: 8%;
+}
+
+.dayfooter {
+    border: 1px solid #ddd;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 55;
+    height: 7vh;
+    padding: 5px;
+    background-color: #4cb3e2;
+}
+
+.footer-text {
+    font-size: 18px;
+}
+
+.footer-time {
+    font-size: 18px;
+}
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    /*text-align: center;*/
+    /*font-size: 18px;*/
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.swiperhead {
+    background-color: #4cb3e2;
+}
+
+.swipePages > .swiper-slide {
+    display: block;
+}
+
+.page {
+    height: calc(89vh - 8vh);
+}
+
+.switch label input[type=checkbox]:checked + .lever:after {
+    background-color: #ffffff;
+    left: 14px;
+}
+
+.switchcss {
+    background-color: white;
+    border: 1px solid #ddd;
+    width: 24px !important;
+    height: 12px !important;
+    margin-right: 0px !important;
+}
+
+.switch label .lever:after {
+    width: 15px;
+    height: 15px;
+}
+
+.switch label input[type=checkbox]:checked + .lever:after {
+    background-color: #ffffff;
+    left: 14px;
+    width: 15px;
+    height: 15px;
+}
+
+.addtaskicon {
+    color: white;
+    padding: 2px 10px;
+    font-size: 20px;
+}
+
+.modaltitlesubtext {
+    /*border*/ -bottom: 1px solid #ddd;
+    font-style: italic;
+    color: #808080;
+    margin-top: 0px;
+}
+
+.pd5 {
+    padding: 5px;
+}
+
+.addtaskcardtitle {
+    font-size: 18px;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.addprjtile {
+    font-size: 18px;
+}
+
+.editproj {
+    color: black;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.pd10 {
+    padding: 10px;
+}
+
+#taskappend {
+    padding: 15px 0px 5px 10px;
+}
+
+.doAddTask {
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+}
+
+.doAddTaskall {
+    text-align: center;
+    padding: 7px;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+}
+
+.addtaskbutton {
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+    box-shadow: none;
+}
+
+.addtaskmodalhead {
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.bottommodal {
+    border-top-left-radius: 15px !important;
+    border-top-right-radius: 15px !important;
+    width: 90% !important;
+    margin-left: 5% !important;
+}
+
+.doAddDev {
+    text-align: center;
+    border-radius: 5px;
+    padding: 7px;
+    font-size: 18px;
+}
+
+.selectdev {
+    margin-bottom: 15px;
+}
+
+.adprojmodal {
+    padding: 9px 15px 0px 15px;
+}
+
+#addprojinfo {
+    font-size: 18px;
+}
+
+.selecttaskmodal {
+    border-radius: 5px;
+}
+
+.border1px {
+    border: 1px solid #ddd;
+}
+
+.subtask {
+    font-size: 14px;
+    color: #8b8b8b;
+    font-style: italic;
+}
+
+.addtaskmodalbutton {
+    padding: 1px 5px 6px 5px;
+    margin-top: 14px;
+    border: 1px solid #ddd;
+}
+
+.tasklist {
+    height: 35vh;
+    overflow: auto;
+}
+
+/*New starts from here*/
+.header {
+    height: 48px;
+    background-color: #28bb6a;
+    text-align: center;
+    color: white;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.home_backbutton {
+    text-align: left;
+    font-size: 21px;
+    padding: 26px 0px 0px 24px !important;
+    color: white;
+}
+
+    .home_backbutton > i {
+        font-size: 15px;
+    }
+
+    .home_backbutton span {
+        font-family: 'Maven Pro', sans-serif !important;
+        font-size: 16px;
+    }
+
+.ui.sidebar {
+    max-height: 80% !important;
+}
+
+#SidebarProjectListAnchor {
+    margin-top: 5%;
+    height: calc(100vh - 40vh);
+    overflow-y: scroll;
+}
+
+.ovLoad {
+    padding: 0px !important;
+    margin-top: 3% !important;
+}
+
+.Overview {
+    padding: 0px !important;
+    margin-top: 17% !important;
+}
+
+.b-b {
+    border-bottom: 1px solid #ddd !important;
+}
+
+#noHeight {
+    height: 100% !important;
+}
+
+.speedo {
+    color: white;
+    font-size: 16px;
+    padding: 28px 24px 0px 0px !important;
+    text-align: right;
+}
+
+.devName {
+    text-align: center;
+    color: white;
+    padding-top: 18px !important;
+    font-size: 18px;
+}
+
+.devdropdown {
+    background-color: transparent;
+    border: 0px !important;
+    padding: 0px !important;
+    height: 23px !important;
+}
+
+.options {
+    color: black;
+}
+
+.devName > .select.ui.dropdown {
+    height: 26px !important;
+}
+
+.head_daytimer {
+    font-size: 12px;
+    padding-right: 5px;
+}
+
+.date_header {
+    height: 48px;
+    background-color: white;
+    text-align: center;
+    color: black;
+    position: fixed;
+    top: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.date_choose {
+    color: black;
+    padding: 12px 11px 15px 11px !important;
+}
+
+.isdateactive {
+    color: #28bb6a;
+    border-bottom: 3px solid;
+}
+
+.projheader {
+    align-items: center;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    color: black;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    background-color: #fafafa;
+}
+
+.datebody {
+    margin-top: 96px;
+}
+
+.projects {
+    font-size: 12px;
+}
+
+.projdetails {
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    border-top: 2px solid #ddd;
+}
+
+.clear {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+.project_time {
+    float: right;
+    padding: 8px;
+}
+
+.project_name {
+    color: #444;
+    float: left;
+    padding: 8px;
+}
+
+.taskdetails {
+    background-color: #fafafa;
+    height: 40px;
+    font-size: 18px;
+    border-bottom: 1px solid #ddd;
+    border-top: 0px solid #ddd;
+}
+
+.task_name {
+    float: left;
+    padding: 8px;
+}
+
+.project_minmax {
+    float: right;
+    padding: 10px 15px 8px 8px;
+}
+
+.project_minmax_disabled {
+    float: right;
+    padding: 10px 15px 8px 8px;
+}
+
+.downarrow {
+    font-size: 17px !important;
+    color: gray;
+}
+
+.hrs {
+    float: left;
+    padding: 8px;
+    font-size: 13px;
+    color: #44c27c;
+}
+
+.mins {
+    float: right;
+    padding: 8px;
+    font-size: 13px;
+    color: #dd2d2f;
+}
+
+.project_head {
+    padding-top: 18px;
+    border-bottom: 1px solid #ddd;
+}
+
+.ui.bottom.sidebar {
+    border: 0px;
+}
+
+.bottom_sidebar_head {
+    background-color: #28bb6a;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.bottom_items {
+    border-bottom: 1px solid #ddd;
+    font-size: 15px;
+}
+
+.time {
+    padding: 10px !important;
+    border: 1px solid #ddd !important;
+    color: #999;
+}
+
+.taskbody {
+    padding: 5px 0px 5px 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+.total_height_set {
+}
+
+.minactive {
+    color: red;
+    border: 2px solid red !important;
+}
+
+.houractive {
+    color: #44c27c;
+    border: 2px solid #44c27c !important;
+}
+
+.mg-tp97px {
+    padding-top: 48px;
+}
+
+.griding {
+    flex-wrap: nowrap !important;
+}
+
+.addnote {
+    margin: 8px 10px 0px 10px;
+    resize: inherit;
+}
+
+.txtarea {
+    outline: 0;
+    width: 100%;
+    border: 0px;
+    resize: inherit;
+    /* background: #ebebeb; */
+    color: #c2bebe;
+}
+
+.z-idx {
+    z-index: 999;
+}
+
+.fullheight {
+    height: 100vh;
+}
+
+.selectuserhead {
+    border: 0px;
+    color: green !important;
+    font-size: 13px !important;
+}
+
+.font-maven_pro {
+    font-family: 'Maven Pro', sans-serif !important;
+}
+
+.date_choose {
+    font-size: 18px !important;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.height-48px {
+    height: 62px !important;
+}
+
+.color_selected_project {
+    color: #28bb6a !important;
+}
+
+.projectLoader {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.projLoad {
+    height: calc(100% - 18%) !important;
+}
+
+.Projectlistcss {
+    height: calc(100vh - 24vh) !important;
+    margin-top: 4%;
+    overflow: scroll !important;
+    overflow-x: hidden !important;
+}
+
+.doSelectProject_overview {
+    border-bottom: 1px solid #eee;
+}
+
+.height70vh {
+    height: 70vh !important;
+}
+
+.sliding {
+    border-top: 0px;
+}
+
+.defaultpage {
+    margin-top: calc(100vh - 83vh) !important;
+    text-align: center;
+}
+
+.PM_height {
+    background-color: #28bb6a !important;
+    height: 62px !important;
+}
+
+.project_name1 {
+    font-size: 12px;
+    background-color: #fafafa;
+    text-align: left;
+    padding-left: 26px !important;
+}
+
+.Man_days {
+    font-size: 12px;
+    background-color: #fafafa;
+    text-align: right;
+    padding-right: 26px !important;
+}
+
+.md_val {
+    text-align: right;
+    padding-right: 26px !important;
+}
+
+.projectname_val {
+    text-align: left;
+    padding-left: 26px !important;
+}
+
+.fnt-18px {
+    font-size: 18px;
+}
+
+.md-active {
+    color: #28bb6a;
+}
+
+.mg-top8px {
+    margin-top: 8px !important;
+}
+
+.name_wrap {
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.AddProj_footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    background-color: #28bb6a;
+    height: 42px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.enter_proj_name {
+    font-size: 18px;
+    border: 0px;
+    outline: 0;
+}
+
+.proj_name {
+    border-bottom: 1px solid #ddd;
+}
+
+.grid_paddingleft {
+    padding-left: 26px !important;
+}
+
+.grid_paddingtop {
+    padding-top: 26px !important;
+}
+
+.platform_col {
+    text-align: right;
+    padding-left: 0px !important;
+}
+
+.border-btm-1px {
+    border-bottom: 1px solid #ddd;
+}
+
+.team_choose_active {
+    text-decoration: none;
+    color: #28bb6a;
+    border-bottom: 3px solid #28bb6a;
+    padding-bottom: 12px;
+}
+
+.grid_paddingright {
+    padding-right: 26px !important;
+}
+
+.choose_team {
+    text-decoration: none;
+}
+
+.select_user_list {
+    font-size: 11px;
+    padding-left: 3px;
+}
+
+.assignProjLoader {
+    padding-right: 10px;
+}
+
+.DoAddProj_footer {
+    position: fixed !important;
+    width: 100%;
+    bottom: 0px;
+    background-color: #28bb6a;
+    height: 42px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.cal-ico {
+    color: white;
+    font-size: 21px;
+    padding: 24px 24px 0px 0px !important;
+    text-align: right;
+}
+
+.overview-choose {
+    text-decoration: none;
+}
+
+.overview_choose_active {
+    text-decoration: none;
+    color: #28bb6a;
+    border-bottom: 3px solid #28bb6a;
+    padding-bottom: 15px;
+    width: 71%;
+    text-align: left;
+}
+
+.userselectioncss {
+    width: 71%;
+    text-align: left;
+    max-width: 74%;
+    text-overflow: ellipsis;
+    overflow-x: hidden;
+}
+
+.overview {
+    color: black;
+    padding: 12px 11px 15px 11px !important;
+    font-size: 18px;
+}
+
+.mg-top62 {
+    margin-top: 62px;
+}
+
+.inprogress {
+    color: #28bb6a;
+}
+
+.Onhold {
+    color: #E3B256;
+}
+
+.Unassigned {
+    color: #F21C1C;
+}
+
+.Completed {
+    color: #1C53F2 !important;
+}
+
+.background-fafafa {
+    background-color: #fafafa;
+}
+
+.txtlft {
+    text-align: left;
+}
+
+.txtrgt {
+    text-align: right;
+}
+
+.border-top-1px {
+    border-top: 1px solid #ddd;
+}
+
+.label-des {
+    padding: 10px !important;
+    font-size: 15px;
+    margin: 2px !important;
+}
+
+.grid-design {
+    margin: 0px !important;
+    box-sizing: border-box;
+}
+
+.task_list_design {
+    color: black;
+    font-size: 18px;
+}
+
+.both-border {
+    border-bottom: 1px solid #cfcfcf;
+    border-top: 1px solid #cfcfcf;
+}
+
+.update_bottom_footer_task {
+    width: 50%;
+    float: left;
+    padding: 12px;
+}
+
+.update_cancel {
+    width: 50%;
+    float: right;
+    background-color: #eee;
+    color: #000;
+    padding: 12px;
+}
+
+.update_bottom_footercss {
+    position: fixed;
+    bottom: 0px;
+    height: 42px;
+    background-color: #28bb6a;
+    width: 100%;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.update_bottom_footer {
+    display: inline-flex;
+    position: absolute;
+    width: 100%;
+    align-items: center;
+    bottom: 0px;
+    left: -1px;
+    background-color: #28bb6a;
+    height: 42px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    /*padding-top: 10px;*/
+}
+
+.modal_bottom_button {
+    text-align: center;
+    bottom: 27%;
+    width: 100%;
+    border-top: 0px !important;
+}
+
+.modal_text {
+    font-size: 20px;
+}
+
+.modal_check_icon {
+    font-size: 32vw;
+    color: #21ba45;
+}
