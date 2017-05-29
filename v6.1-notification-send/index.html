@@ -1,0 +1,84 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="CSS/appmain.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" />
+    <link href="CSS/semantic.min.css" rel="stylesheet" />
+    <link href="CSS/appmain.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Maven+Pro" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1" />
+    <title></title>
+</head>
+<body class="font-maven_pro" style="font-family: 'Maven Pro', sans-serif;">
+
+    <div class="PM-dev mg-tp97px transition">
+
+        <div class="header z-idx">
+            <div class="ui grid ">
+                <div class="four wide column home_backbutton"><i class="icon-arrow-left"><span>BACK</span></i></div>
+                <div class="eight wide column devName" id="devName">
+                    <div class="app-name">
+                        MY APP
+                    </div>
+                </div>
+                <div class="four wide column speedo hide">INFO</div>
+            </div>
+        </div>
+
+        <div class="page fullheight hide" style="height: calc(100vh - 48px); text-align: center; padding-top:20px;">
+            <div class="announce">
+                <h1 id="userProfile">WELCOME</h1>
+            </div>
+            <div class="stage" id="stage">
+                STAGE 4
+            </div>
+            <div class="stage-info">
+                <div class="stage-q" id="stageQ">
+                    How does SSO work on Micro Apps?
+                </div>
+                <div class="stage-a" id="stageA">
+                    Get the user info using DronaHQ user device api.<br />Authenticate the user using DronaHQ REST api.<br />
+                </div>
+            </div>
+        </div>
+
+        <!--<div class="footer hide">
+            <button class="ui button positive b-r-h36">What's Next</button>
+        </div>-->
+    </div>
+
+    <div class="ui modal">
+        <div class="header announce">
+            SSO SUCCESSFUL
+        </div>
+        <div class="content">
+        
+            <div class="description" style="text-align: center; padding-top:20px;">
+                <div class="stage" style="padding-top:30px;">
+                    STAGE 4
+                </div>
+                <div class="stage-info">
+                    <div class="stage-q">
+                        How does SSO work on Micro Apps?
+                    </div>
+                    <div class="stage-a">
+                        Get the user info using DronaHQ user device api.<br />Authenticate the user using DronaHQ REST api.<br />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="actions" style="text-align: center;">
+            <div class="ui positive button" style="text-align: center;">
+                Close
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/jquery-1.9.1.min.js"></script>
+    <script src="scripts/dronahq.js"></script>
+    <script src="scripts/semantic.min.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
