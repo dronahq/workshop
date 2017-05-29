@@ -9,7 +9,7 @@ var StartPage = function () {
 
     var dhqAssets = {
         api_url: 'https://plugin.api.dronahq.com/',
-        token: '0e2fd24fa9535fd822380260cee8848790a9ea2af8aa7ecd05',
+        token: 'your_app_token',
         authuser: 'auth-user',
         send_noti_users : ['migom@dronamobile.com']
     }
